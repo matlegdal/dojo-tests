@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hello Dojo</title>
+    <link type="text/css" rel="stylesheet" href="/public/style.css">
+</head>
+
+<body id="body">
+
+    <form action="/login" method="post" id="loginForm">
+        <input class="textInput" type="text" name="user" id="user" placeholder="User name">
+        <input class="textInput" type="password" name="password" id="password" placeholder="Password">
+        <input type="submit">
+    </form>
+    <div id="loginResponse"></div>
+    <ul id="list">
+        <li class="odd">
+            <div class="bold">
+                <a href="#" class="odd">Odd</a>
+            </div>
+        </li>
+        <li class="even">
+            <div class="italic">
+                <a href="#" class="even">Even</a>
+            </div>
+        </li>
+        <li class="odd">
+            <a href="#" class="odd">Odd</a>
+        </li>
+        <li class="even">
+            <div class="bold">
+                <a href="#" class="even">Even</a>
+            </div>
+        </li>
+        <li class="odd">
+            <div class="italic">
+                <a href="#" class="odd">Odd</a>
+            </div>
+        </li>
+        <li class="even">
+            <a href="#" class="even">Even</a>
+        </li>
+    </ul>
+
+    <ul id="list2">
+        <li class="odd">Odd</li>
+    </ul>
+
+    <h1 id="greeting">Hello
+        <span id="dojo">from Dojo!</span>
+    </h1>
+
+    <button class="wipeIn">Wipe in</button>
+    <button class="wipeOut">Wipe out</button>
+    <div id="target">Target to wipe</div>
+
+    <div class="outer"></div>
+
+
+
+
+    <!-- js files -->
+    <script src="/dojoConfig.js"></script>
+    <script src="/dojo/dojo.js.uncompressed.js"></script>
+    <script src="/public/app.js"></script>
+</body>
+
+</html>
